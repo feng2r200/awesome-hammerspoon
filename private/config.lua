@@ -10,19 +10,19 @@ hspoon_list = {
 
 -- appM environment keybindings. Bundle `id` is prefered, but application `name` will be ok.
 hsapp_list = {
-    {key = 'q', name = 'Finder'},
-    {key = 'w', name = 'Mail'},
-    {key = 'e', id = 'com.yinxiang.Mac'},
-    {key = 'r', id = 'com.google.Chrome'},
-    {key = 'a', id = 'org.mozilla.firefox'},
+    {key = 'f', name = 'Finder'},
+    {key = 'm', name = 'Mail'},
+    {key = 'y', id = 'com.yinxiang.Mac'},
+    {key = 'c', id = 'com.google.Chrome'},
+    {key = 'x', id = 'org.mozilla.firefox'},
     {key = 's', name = 'Safari'},
-    {key = 'd', id = 'com.tencent.xinWeChat'},
-    {key = 'f', id = 'com.tencent.qq'},
-    {key = 'z', id = '5ZSL2CJU2T.com.dingtalk.mac'},
-    {key = 'x', name = 'iTerm'},
-    {key = 'c', id = 'com.microsoft.VSCode'},
-    {key = 'v', id = 'com.jetbrains.intellij'},
-    {key = 't', id = 'com.jetbrains.datagrip'},
+    {key = 'w', id = 'com.tencent.xinWeChat'},
+    {key = 'q', id = 'com.tencent.qq'},
+    {key = 'd', id = '5ZSL2CJU2T.com.dingtalk.mac'},
+    {key = 't', name = 'iTerm'},
+    {key = 'v', id = 'com.microsoft.VSCode'},
+    {key = 'i', id = 'com.jetbrains.intellij'},
+    {key = 'g', id = 'com.jetbrains.datagrip'},
 }
 
 -- Modal supervisor keybinding, which can be used to temporarily disable ALL modal environments.
