@@ -3,6 +3,7 @@ hspoon_list = {
     "CircleClock",
     "ClipShow",
     "CountDown",
+    "FnMate",
     "HCalendar",
     "HSearch",
     "WinWin",

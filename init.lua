@@ -34,6 +34,7 @@ if not hspoon_list then
         "CircleClock",
         "ClipShow",
         "CountDown",
+        "FnMate",
         "HCalendar",
         "HSearch",
         "WinWin",
