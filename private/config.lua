@@ -11,7 +11,7 @@ hspoon_list = {
 -- appM environment keybindings. Bundle `id` is prefered, but application `name` will be ok.
 hsapp_list = {
     {key = 'f', name = 'Finder'},
-    {key = 'm', name = 'Mail'},
+    {key = 'm', id = 'com.ideasoncanvas.mindnode.macos'},
     {key = 'y', id = 'com.yinxiang.Mac'},
     {key = 'c', id = 'com.google.Chrome'},
     {key = 'x', id = 'org.mozilla.firefox'},
@@ -35,7 +35,7 @@ hshelp_keys = {{"alt", "shift"}, "/"}
 -- Those keybindings below could be disabled by setting to {"", ""} or {{}, ""}
 
 -- Window hints keybinding: Focuse to any window you want
-hswhints_keys = {"alt", "tab"}
+hswhints_keys = {{"alt", "shift"}, "l"}
 
 -- appM environment keybinding: Application Launcher
 hsappM_keys = {"alt", "A"}
